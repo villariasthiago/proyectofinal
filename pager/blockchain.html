@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta name="description" content="Que es la blockchain, su seguridad y mineria de bitcoins y criptomonedas">
+    <meta name="keywords" content="Blockchain, mineria, bitcoin, seguridad, transacciones, wallet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--hoja de estilo-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--fonts google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>¿Que es la blockchain?
+    </title>
+</head>
+<body>
+    
+    <!-- boton para esconder/mostrar la sidebar-->
+            
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="button btn btn-primary"><span class="navbar-toggler-icon"></span></button>
+    </div>
+
+    
+    <div id="content-wrapper" class="d-flex bg-background">
+        <div class="sidebar__container bg-light border-right">
+
+            <!--Menu vertical-->
+            <nav class="sidebar__menu menu list-group-flush">
+                
+                <!--Aca iria el logo-->
+                <div class="sidebar__logo logo">CRIPTOINICIOS</div>
+
+                <a href="../index.html" class="list-group-item list-group-item-action bg-light p-3 border-0">Inicio</a>
+                <a href="criptos.html" class="list-group-item list-group-item-action bg-light p-3 border-0">Criptomonedas</a>
+                <a href="blockchain.html" class="list-group-item list-group-item-action bg-light p-3 border-0">Blockchain</a>
+                <a href="altcoins.html" class="list-group-item list-group-item-action bg-light p-3 border-0">Altcoins</a>
+                <a href="comprar.html" class="list-group-item list-group-item-action bg-light p-3 border-0">Comprar</a>
+            </nav>
+        </div>
+
+            <!--div necesario para que el contenido de la pagina utilice el 100% del ancho-->
+        <div class="page w-100">
+            
+            <!--Titulo de la pagina-->
+            <h1 class="d-flex justify-content-center">¿Que es la blockchain?</h1>
+
+            <p class="text container-fluid p-3">La blockchain es una cadena de bloques, un “sistema” público y descentralizado, donde podemos ser anónimos, pero todas las transacciones son visibles. A diferencia de una tarjeta de crédito que el tiempo de aprobación de un pago es inmediato, la transacción de una criptomoneda va a depender de la misma y del tráfico de red. La blockchain es una cadena de datos con todas las transacciones, lo que la hace segura y descentralizada porque no depende de ningún organismo centralizado.</p>
+
+            <div class="page w-100">
+                <section class="row container-fluid p-3">
+                    
+                    <div class="col-xs-12">
+
+                         <!--Transacciones y wallets-->
+
+                        <article class="row pl-3">
+                            <div class="col-xs-12 col-lg-4 d-flex justify-content-center">
+                                <img src="../img/blockchain.png" alt="transaccion en bitcoin" style="width: 18rem">
+                            </div>
+                            <div class="col-xs-12 col-lg-8">
+                                <div>
+                                    <p class="text">Las transacciones se acumulan en un bloque que tiene una capacidad limitada, luego se produce una verificación para la continuación, ese bloque se valida y pasa a formar parte de una cadena de bloques ya existente. Este ciclo se repite constantemente de forma que cada bloque este relacionado con el anterior de manera criptográfica.</p>
+                                </div>
+                            </div>
+                        </article>                            
+                    </div>
+
+                    <div class="col-xs-12">
+
+                         <!--Transacciones y wallets-->
+
+                        <article class="row p-3">
+                            <div class="col-xs-12 col-lg-8">
+                                <div>
+                                    <p class=text>Una criptomoneda no puede funcionar sin la blockchain, aunque también tiene otros usos, como los contratos inteligentes en la red de Ethereum y próximamente en la red de Cardano. Hay blockchains que solamente opera para una criptomoneda como la de bitcoin, a diferencia de la de Ethereum que se pueden operar distintos tokens dentro de su red.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-4 d-flex justify-content-center">
+                                <img src="../img/transacciones.png" alt="rig de mineria" style="width: 20rem">
+                            </div>
+                        </article>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+    <script>
+        $(".button").click(function(e){
+            $('#content-wrapper').toggleClass("toggled")
+        });
+    </script>
+
+
+</body>
+</html>

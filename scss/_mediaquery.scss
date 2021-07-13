@@ -1,0 +1,29 @@
+@media (max-width: 400px){
+    .sidebar__container {
+        position: fixed;
+        z-index: 2;
+    }
+    .sidebar__menu {
+        position: relative;
+    }
+}
+
+
+
+
+@media (min-width: 1150px){
+.sidebar__container{
+    margin-left: 0;
+}
+#content-wrapper.toggled .sidebar__container{
+    margin-left: -11rem;
+}
+}
+
+
+
+@media (min-width: 1350px){
+.img__criptos{
+    width: 30rem !important;
+}
+}

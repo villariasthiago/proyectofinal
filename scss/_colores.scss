@@ -1,0 +1,36 @@
+$primary:#F68F22;
+$light:#ffffff;
+$light-orange:#FFF3E7;
+$text:#585654;
+$ao: #1A1612;
+
+.bg-light{
+    background-color:$light !important;
+}
+.bg-background{
+    background-color:$light-orange;
+}
+.btn-primary{
+    background-color:$light-orange !important;
+    border: 0;
+    color:$primary;
+}
+.text{
+    font-size: 22px;
+    color: $text;
+}
+.ao{
+    font-size: 16px;
+    color: $ao;;
+}
+b{
+    color: black;
+    font-weight: 600;
+}
+h1{
+    font-weight: 700;
+    color: $primary;
+}
+.navbar{
+    background-image:linear-gradient(to right, $primary, $light-orange);
+}

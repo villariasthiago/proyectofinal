@@ -1,0 +1,22 @@
+.sidebar__container {
+    min-height: 100vh;
+    margin-left: -10.4rem;
+    transition: margin .25s ease-in-out; 
+}
+.sidebar__container {
+    width: 10.4rem; 
+}
+.sidebar__menu {
+    position: fixed;
+}
+.sidebar__logo {
+    padding: 0.875rem;
+    font-weight: 700;
+}
+.list-group-item{
+    color: $primary;
+    font-weight: 400;
+}
+#content-wrapper.toggled .sidebar__container {
+    margin-left: 0; 
+}
