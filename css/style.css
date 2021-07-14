@@ -86,8 +86,11 @@ body {
     position: relative; }
   body {
     text-align: center; }
-  .text {
-    padding-left: 1rem; } }
+  .page__content {
+    display: flex;
+    flex-direction: column; }
+  img {
+    padding-bottom: 1rem; } }
 
 @media (min-width: 1150px) {
   .sidebar__container {

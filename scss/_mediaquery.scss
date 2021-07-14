@@ -9,8 +9,12 @@
     body{
         text-align: center;
     }
-    .text{
-        padding-left: 1rem;
+    .page__content {
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        padding-bottom: 1rem;
     }
 }
 
