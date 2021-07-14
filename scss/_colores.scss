@@ -19,6 +19,9 @@ $ao: #1A1612;
     font-size: 22px;
     color: $text;
 }
+b{
+    color: $primary !important;
+}
 .ao{
     font-size: 16px;
     color: $ao;;
@@ -33,4 +36,7 @@ h1{
 }
 .navbar{
     background-image:linear-gradient(to right, $primary, $light-orange);
+}
+.card-body{
+    color: $ao;
 }

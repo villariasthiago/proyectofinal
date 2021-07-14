@@ -13,6 +13,9 @@
   font-size: 22px;
   color: #585654; }
 
+b {
+  color: #F68F22 !important; }
+
 .ao {
   font-size: 16px;
   color: #1A1612; }
@@ -27,6 +30,9 @@ h1 {
 
 .navbar {
   background-image: linear-gradient(to right, #F68F22, #FFF3E7); }
+
+.card-body {
+  color: #1A1612; }
 
 .sidebar__container {
   min-height: 100vh;
@@ -77,7 +83,11 @@ body {
     position: fixed;
     z-index: 2; }
   .sidebar__menu {
-    position: relative; } }
+    position: relative; }
+  body {
+    text-align: center; }
+  .text {
+    padding-left: 1rem; } }
 
 @media (min-width: 1150px) {
   .sidebar__container {
