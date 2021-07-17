@@ -71,13 +71,17 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600; }
 
+.footer h4 {
+  text-align: center; }
+
 .textFooter {
   font-family: 'Montserrat', sans-serif;
   color: #585654;
-  text-align: center; }
+  text-align: center;
+  font-size: 12px; }
 
 .imgFooter {
-  box-shadow: 1px, 0px, 10px, 0px; }
+  border-radius: 50%; }
 
 .navbar {
   position: sticky;
@@ -105,6 +109,9 @@ body {
 
 .parallax .btn {
   background-color: #F68F22; }
+
+.parallax h2 {
+  text-align: center; }
 
 @media (max-width: 525px) {
   .sidebar__container {
