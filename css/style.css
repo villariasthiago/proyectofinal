@@ -88,14 +88,13 @@ body {
   max-width: 960px;
   margin: 0 auto; }
 
-.parallax .h1 {
+.parallax h1 {
   text-align: center;
   margin: 0;
   font-size: 160px;
-  line-height: 600px; }
+  padding: 75px 0px 75px 0px; }
 
 .parallax {
-  height: 200px;
   background-image: url(../img/parallax.png);
   background-color: #FFF3E7;
   background-position: 50% 50%;
@@ -103,7 +102,7 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
-@media (max-width: 450px) {
+@media (max-width: 525px) {
   .sidebar__container {
     position: fixed;
     z-index: 2; }
@@ -115,15 +114,16 @@ body {
     display: flex;
     flex-direction: column; }
   img {
-    padding-bottom: 1rem;
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .list-group-item {
+    text-align: start; } }
 
 @media (min-width: 1150px) {
   .sidebar__container {
     margin-left: 0; }
   #content-wrapper.toggled .sidebar__container {
-    margin-left: -11rem; } }
+    margin-left: -10.4rem; } }
 
 @media (min-width: 1350px) {
   .img__criptos {

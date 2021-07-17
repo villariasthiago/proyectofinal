@@ -24,14 +24,13 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-  .parallax .h1{
+  .parallax h1{
     text-align: center;
     margin: 0;
     font-size: 160px;
-    line-height: 600px;
+    padding: 75px 0px 75px 0px;
 }
   .parallax{
-    height: 200px;
     background-image: url(../img/parallax.png);
     background-color: $light-orange;
     background-position: 50% 50%;
