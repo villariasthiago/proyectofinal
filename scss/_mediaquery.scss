@@ -40,7 +40,29 @@
 
 
 @media (min-width: 1350px){
-.img__criptos{
-    width: 30rem !important;
-}
+    .sidebar__container {
+        min-height: 100vh;
+        transition: margin .25s ease-in-out; 
+    }
+    .sidebar__container {
+        width: 14rem; 
+    }
+    #content-wrapper.toggled .sidebar__container{
+        margin-left: -14rem;
+    }
+    .imgCriptos{
+        width: 25rem !important;
+    }
+    .textFooter{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 28px;
+    }
+    .textMenu{
+        font-size: 23.5px;
+    }
+    .sidebar__logo{
+        width: 10rem;
+    }
 }
