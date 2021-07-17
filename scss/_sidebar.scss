@@ -11,7 +11,8 @@
 }
 .sidebar__logo {
     padding: 0.875rem;
-    font-weight: 700;
+    padding-top: 0.4375rem;
+    padding-bottom: 0;
 }
 .list-group-item{
     color: $primary;
@@ -20,3 +21,8 @@
 #content-wrapper.toggled .sidebar__container {
     margin-left: 0; 
 }
+/*.sidebar__logo3 {
+    padding: 0.875rem;
+    padding-top: 0.4375rem;
+    padding-bottom: 0;
+} */
