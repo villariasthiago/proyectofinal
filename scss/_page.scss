@@ -24,17 +24,21 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-  .parallax h1{
-    text-align: center;
-    margin: 0;
-    font-size: 160px;
-    padding: 75px 0px 75px 0px;
-}
-  .parallax{
+.parallax{
     background-image: url(../img/parallax.png);
-    background-color: $light-orange;
+    background-color: $ao;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-blend-mode: soft-light;
+}
+.parallax .row{
+    color: $light;
+    margin: 0;
+    font-size: 16px;
+    padding: 75px;
+}
+.parallax .btn{
+    background-color: $primary;
 }
