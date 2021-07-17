@@ -3,7 +3,7 @@ $light:#ffffff;
 $light-orange:#FFF3E7;
 $text:#585654;
 $ao: #1A1612;
-
+$blue:#1D57A5;
 .bg-light{
     background-color:$light !important;
 }
@@ -39,4 +39,8 @@ h1{
 }
 .card-body{
     color: $ao;
+}
+.list-group-item-action:hover{
+    color:$blue;
+    font-weight: 600;
 }

@@ -34,6 +34,10 @@ h1 {
 .card-body {
   color: #1A1612; }
 
+.list-group-item-action:hover {
+  color: #1D57A5;
+  font-weight: 600; }
+
 .sidebar__container {
   min-height: 100vh;
   margin-left: -10.4rem;
@@ -150,6 +154,8 @@ body {
   .textFooter {
     font-size: 18px; }
   .text {
+    font-size: 28px; }
+  .ao {
     font-size: 28px; }
   .textMenu {
     font-size: 23.5px; }
